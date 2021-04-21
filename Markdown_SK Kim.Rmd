@@ -1,0 +1,21 @@
+---
+title: "exercise"
+author: "SK Kim"
+date: '2021 4 21 '
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r cars}
+
+```
+
+## Including Plots
+
+```{r pressure, echo=FALSE}
+```
