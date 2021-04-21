@@ -1,5 +1,5 @@
 ---
-title: "exercise"
+title: "연습"
 author: "SK Kim"
 date: '2021 4 21 '
 output: html_document
@@ -9,13 +9,34 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## s.90 예제
+# 1. x = c(1:5)인 벡터가 있다. 이 벡터에 c(6:10)인 벡터를 추가하라
+# 2. x = c(1:10)인 벡터에서 짝수 번째 요소만 남긴 x를 만들어라
 
 ```{r cars}
+# 연습생풀이
+# 1번
+x = c(1:5)
+y = c(6:10)
+union(x, y)
 
+# 2번
+# 재확인할 것
+x = c(1:10)
+x = c(seq())
+
+# 정답
+# 1번
+x = c(1:5)
+x = c(x, c(6:10))
+
+# 2번
+x = c(1:10)
+x = x[seq(2,length(x),2)]
+x
 ```
 
-## Including Plots
+##
 
 ```{r pressure, echo=FALSE}
 ```
