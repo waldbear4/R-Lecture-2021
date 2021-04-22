@@ -1,0 +1,58 @@
+---
+title: '20210422'
+author: "김승건"
+date: '2021 4 22 '
+output: html_document
+---
+
+# 1번
+```{r}
+x <- c(1:100)
+x[x%%3==0]
+```
+# 1번
+```{r}
+y <- c(1:100)
+y[y%%4==0]
+```
+# 2번
+```{r}
+x[x%%3==0]
+y[y%%4==0]
+intersect(x[x%%3==0],y[y%%4==0])
+```
+```{r}
+sum(intersect(x[x%%3==0],y[y%%4==0]))
+```
+# 3번
+```{r}
+# ?airquality
+# New York
+```
+
+# 4번
+```{r}
+# ?airquality
+# 화씨
+```
+
+# 5번
+```{r}
+max(airquality$Wind)
+airquality[airquality$Wind == max(airquality$Wind), c("Day")]
+```
+
+# 6번
+```{r}
+sum(is.na(airquality))
+```
+# 7번
+```{r}
+# ?quakes
+# Fiji
+```
+
+# 8번
+```{r}
+max(quakes$mag)
+```
