@@ -58,6 +58,4 @@ cancelledF <- table(hflights$Cancelled)
 cancelledF
 
 table(is.na(hflights$Cancelled)) # NA 갯수 확인
-hflights[table(is.na(hflights$Cancelled))[2]
-
-         
+table(hflights$Cancelled)[2]
